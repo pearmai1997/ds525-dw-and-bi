@@ -1,4 +1,4 @@
 # 01 Data Modeling i
 
 ## Data Model (SQL)
-![alt text](/workspaces/ds525-dw-and-bi/01-data-modeling-i/01-data-modeling-i_Database ER diagram.png)
+![alt text](https://github.com/pearmai1197/ds525-dw-and-bi/blob/01-data-modeling-i/01-data-modeling-i_Database ER diagram.png?raw=true)
