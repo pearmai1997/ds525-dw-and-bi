@@ -1,7 +1,7 @@
 # 01 Data Modeling i
 
 ## Data Model (SQL)
-<img src="https://github.com/pearmai1997/ds525-dw-and-bi/blob/main/01-data-modeling-i/01-data-modeling-i_Database%20ER%20diagram.png" width="15%"></img> 
+<img src="https://github.com/pearmai1997/ds525-dw-and-bi/blob/main/01-data-modeling-i/01-data-modeling-i_Database%20ER%20diagram.png" width="100%"></img> 
 <br>
 
 ## Step:
