@@ -1,7 +1,7 @@
 # 01 Data Modeling i
 
 ## Data Model (SQL)
-<img src="https://github.com/pearmai1997/ds525-dw-and-bi/blob/main/01-data-modeling-i/01-data-modeling-i_Database%20ER%20diagram.png" width="100%"></img> 
+<img src="https://github.com/pearmai1997/ds525-dw-and-bi/blob/main/01-data-modeling-i/img/01-data-modeling-i_Database%20ER%20diagram.png" width="70%"></img> 
 <br>
 
 ## Step:
@@ -35,14 +35,21 @@ Database: postgres
 ```
 <br>
 
-### 5. Create Table and import data
+### 5. Create Table 
 ```
 python create_tables.py
-python etl.py
 ```
+<img src="https://github.com/pearmai1997/ds525-dw-and-bi/blob/main/01-data-modeling-i/img/create_table.png" width="70%"></img> 
 <br>
 
-### 6. Stop Postgres
+### 6. Import Data
+```
+python etl.py
+```
+<img src="https://github.com/pearmai1997/ds525-dw-and-bi/blob/main/01-data-modeling-i/img/insert_data.png" width="70%"></img> 
+<br>
+
+### 7. Stop Postgres
 ```
 docker-compose down
 ```
