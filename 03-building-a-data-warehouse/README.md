@@ -17,6 +17,7 @@ pip install -r requirements.txt
 
 ### 4. Create dataset in Google Cloud
 BigQuery Studio > Create Dataset
+<br>
 <img src="https://github.com/pearmai1997/ds525-dw-and-bi/blob/main/03-building-a-data-warehouse/img/Screen Shot 2567-04-19 at 17.37.02.png" width="70%"></img> 
 <br>
 
