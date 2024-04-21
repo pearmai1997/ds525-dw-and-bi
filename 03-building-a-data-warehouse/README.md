@@ -3,7 +3,7 @@
 ## Step:
 ### 1. Change Directory
 ```
-cd 01-data-modeling-i
+cd 03-building-a-data-warehouse
 ```
 <br>
 
