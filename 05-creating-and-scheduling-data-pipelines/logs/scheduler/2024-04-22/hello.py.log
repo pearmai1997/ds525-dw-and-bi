@@ -562,3 +562,17 @@ NameError: name '_say_hello' is not defined
 [2024-04-22T09:31:40.107+0000] {logging_mixin.py:188} INFO - [2024-04-22T09:31:40.107+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-04-22T09:31:40.118+0000] {logging_mixin.py:188} INFO - [2024-04-22T09:31:40.118+0000] {dag.py:3954} INFO - Setting next_dagrun for hello to None, run_after=None
 [2024-04-22T09:31:40.139+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hello.py took 0.058 seconds
+[2024-04-22T09:32:10.448+0000] {processor.py:161} INFO - Started process (PID=88414) to work on /opt/airflow/dags/hello.py
+[2024-04-22T09:32:10.448+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hello.py for tasks to queue
+[2024-04-22T09:32:10.450+0000] {logging_mixin.py:188} INFO - [2024-04-22T09:32:10.449+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/hello.py
+[2024-04-22T09:32:10.454+0000] {processor.py:840} INFO - DAG(s) 'hello' retrieved from /opt/airflow/dags/hello.py
+[2024-04-22T09:32:10.473+0000] {logging_mixin.py:188} INFO - [2024-04-22T09:32:10.472+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-22T09:32:10.483+0000] {logging_mixin.py:188} INFO - [2024-04-22T09:32:10.482+0000] {dag.py:3954} INFO - Setting next_dagrun for hello to None, run_after=None
+[2024-04-22T09:32:10.502+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hello.py took 0.059 seconds
+[2024-04-22T09:32:41.140+0000] {processor.py:161} INFO - Started process (PID=88686) to work on /opt/airflow/dags/hello.py
+[2024-04-22T09:32:41.140+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/hello.py for tasks to queue
+[2024-04-22T09:32:41.141+0000] {logging_mixin.py:188} INFO - [2024-04-22T09:32:41.141+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/hello.py
+[2024-04-22T09:32:41.146+0000] {processor.py:840} INFO - DAG(s) 'hello' retrieved from /opt/airflow/dags/hello.py
+[2024-04-22T09:32:41.162+0000] {logging_mixin.py:188} INFO - [2024-04-22T09:32:41.161+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-22T09:32:41.172+0000] {logging_mixin.py:188} INFO - [2024-04-22T09:32:41.172+0000] {dag.py:3954} INFO - Setting next_dagrun for hello to None, run_after=None
+[2024-04-22T09:32:41.191+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/hello.py took 0.056 seconds
