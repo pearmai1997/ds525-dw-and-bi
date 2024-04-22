@@ -46,7 +46,21 @@ username: airflow
 password: airflow
 <br>
 
-### 7. create dags
+### 7. Create Dags
 <br>
-<img src="https://github.com/pearmai1997/ds525-dw-and-bi/blob/main/05-creating-and-scheduling-data-pipelines/img/Screen Shot 2567-04-22 at 16.21.55.png" width="70%"></img> 
+<img src="https://github.com/pearmai1997/ds525-dw-and-bi/blob/main/05-creating-and-scheduling-data-pipelines/img/Screen Shot 2567-04-22 at 17.22.58.png" width="70%"></img> 
+<br>
+
+### 7. List Table in Postgres and Select data
+```
+docker compose exec postgres bash
+psql -d airflow -U airflow
+
+\dt
+select * from actors;
+```
+<br>
+<img src="https://github.com/pearmai1997/ds525-dw-and-bi/blob/main/05-creating-and-scheduling-data-pipelines/img/Screen Shot 2567-04-22 at 17.12.10.png" width="70%"></img> 
+<br>
+<img src="https://github.com/pearmai1997/ds525-dw-and-bi/blob/main/05-creating-and-scheduling-data-pipelines/img/Screen Shot 2567-04-22 at 17.19.35.png" width="70%"></img> 
 <br>
