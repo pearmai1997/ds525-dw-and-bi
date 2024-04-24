@@ -13,9 +13,9 @@ docker compose up
 ```
 <br>
 
-### 3. Login database
+### 3. Login database Port 3000
 <br>
-<img src="https://github.com/pearmai1997/ds525-dw-and-bi/blob/main/05-creating-and-scheduling-data-pipelines/img/Screen Shot 2567-04-22 at 17.22.58.png" width="70%"></img> 
+<img src="https://github.com/pearmai1997/ds525-dw-and-bi/blob/main/06-analytics-engineering/img/Screen Shot 2567-04-24 at 13.52.43.png" width="70%"></img> 
 <br>
 
 ### 4. Create Visual ENV
@@ -33,10 +33,23 @@ dbt init
 
 ### 6. Set up and debug
 Set up ข้อมูลต่างๆ แล้วนำ code ในไฟล์ profiles.yml ไปใส่ใน folder 06-analytics-engineering > ds525 ตั้งชื่อว่า profiles.yml
+<br>
+<img src="https://github.com/pearmai1997/ds525-dw-and-bi/blob/main/06-analytics-engineering/img/Screen Shot 2567-04-24 at 14.07.28.png" width="70%"></img> 
+<br>
 ```
 code /home/codespace/.dbt/profiles.yml
 ```
-
+<br>
+<img src="https://github.com/pearmai1997/ds525-dw-and-bi/blob/main/06-analytics-engineering/img/Screen Shot 2567-04-24 at 14.53.31.png" width="70%"></img> 
+<br>
 ```
 dbt debug
 ```
+
+### 7. เขียน code sql ใน model แล้ว run
+```
+dbt run
+```
+<br>
+<img src="https://github.com/pearmai1997/ds525-dw-and-bi/blob/main/06-analytics-engineering/img/Screen Shot 2567-04-24 at 14.46.58.png" width="70%"></img> 
+<br>
